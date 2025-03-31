@@ -14,3 +14,4 @@ cargo test --test e2e_test -- --nocapture
 
 # Kill the server
 kill $SERVER_PID 
+soundness-cli generate-key --name my-key
